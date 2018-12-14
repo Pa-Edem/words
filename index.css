@@ -1,0 +1,26 @@
+html, select, textarea, button, input{
+	font:16px calibri, sans-serif;
+}
+input[type="text"]{
+	width:300px;
+	padding:4px;
+	outline:0;
+	border:1px solid #7f9db9;
+	border-radius:4px;
+	-moz-border-radius:4px;
+}
+input[type="text"]{
+	margin:-10px 0 0;
+	font-size:24px;
+}
+input[type="text"]:focus{
+	border-width:3px;
+	margin:-12px -2px -2px;
+}
+#wrapper {
+	text-align: center;
+	margin: 120px auto;
+}
+#strWin{color:green;}
+#strLose{color:red;}
+#strTimer{color:maroon;}
